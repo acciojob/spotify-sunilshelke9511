@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class SpotifyService {
 
+
     //Auto-wire will not work in this case, no need to change this and add autowire
 
     SpotifyRepository spotifyRepository = new SpotifyRepository();
